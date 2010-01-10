@@ -1,0 +1,11 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<com.everysoft.cardockspeakerphone.preference.CarDockSpeakerphoneDialogPreference
+		android:key="about" android:title="@string/about_title" android:src="@drawable/icon"
+		android:dialogTitle="@string/about_title" android:dialogMessage="@string/about_message"
+		android:dialogIcon="@drawable/icon" android:negativeButtonText="@null" />
+	<com.everysoft.cardockspeakerphone.preference.CarDockSpeakerphoneDialogPreference
+		android:key="license" android:title="@string/license_title"
+		android:src="@drawable/icon" android:dialogTitle="@string/license_title"
+		android:dialogMessage="@string/license_message"
+		android:dialogIcon="@drawable/icon" android:negativeButtonText="@null" />
+</PreferenceScreen>
